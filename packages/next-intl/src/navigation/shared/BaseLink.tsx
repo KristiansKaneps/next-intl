@@ -1,6 +1,5 @@
 'use client';
 
-import NextLink, {type LinkProps} from 'next/link.js';
 import {usePathname} from 'next/navigation.js';
 import {
   type ComponentProps,
@@ -10,6 +9,7 @@ import {
   forwardRef
 } from 'react';
 import {type Locale, useLocale} from 'use-intl';
+import NextLink, {type LinkProps} from '../../partner/components/PartnerLink.js';
 import type {InitializedLocaleCookieConfig} from '../../routing/config.js';
 import syncLocaleCookie from './syncLocaleCookie.js';
 
