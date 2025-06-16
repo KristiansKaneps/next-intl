@@ -8,5 +8,5 @@ export default function getClientPartnerId(): string | undefined {
     },
     {} as Record<string, string>,
   );
-  return cookies["PARTNER_ID"] || undefined;
+  return cookies.PARTNER_ID || undefined;
 }

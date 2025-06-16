@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-import getClientPartnerId from "@/routing/utils/get-client-partner-id";
+import getClientPartnerId from "../utils/getClientPartnerId.js";
 
 export function usePartnerId(
   initialValue: string | undefined = undefined,
